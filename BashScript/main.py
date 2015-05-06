@@ -55,7 +55,7 @@ class BashScript(object):
 
 
 def Test():
-    b = BashScript('/Users/Amber/test.sh')
+    b = BashScript('/home/Amber/test.sh')
     b.setCommand("echo $USER ")
     b.generateScript()
 
